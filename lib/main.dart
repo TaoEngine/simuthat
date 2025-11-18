@@ -37,7 +37,7 @@ class MainApp extends StatelessWidget {
     return DynamicColorBuilder(
       builder: (ColorScheme? lightDynamic, ColorScheme? darkDynamic) {
         return MaterialApp(
-          title: "纸壳箱子",
+          title: "Simuthat",
           theme: withM3ETheme(ThemeData(fontFamily: "微软雅黑", colorScheme: lightDynamic)),
           darkTheme: withM3ETheme(ThemeData(fontFamily: "微软雅黑", colorScheme: darkDynamic)),
           themeMode: ThemeMode.system,
