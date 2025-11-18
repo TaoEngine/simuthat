@@ -9,6 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  dynamic_color: ^1.8.1
+  flutter_tabler_icons: ^1.43.0
+  m3e_collection: ^0.3.7
+  vyuh_node_flow: ^0.3.18
+  window_manager: ^0.5.1
 
 dev_dependencies:
   flutter_test:
